@@ -14,6 +14,6 @@ app.use('/applicant', require('./routes/applicant.route'))
 app.use('/document', require('./routes/document.route'))
 app.use('/image-uploader',require('./routes/imageUploader.route'))
 
-app.listen(3000, () => {
+app.listen(3000,"0.0.0.0", () => {
   console.log(`Server is running on port : 3000`);
 });
